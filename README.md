@@ -3,8 +3,7 @@
 This project is a personal portfolio website created as part of the CodSoft Web Development Internship.
 
 ## Live Website
-https://yourusername.github.io/codsoft-portfolio/
-
+  https://athrv-d.github.io/Codsoft-Internship/
 ## Features
 
 - Responsive portfolio layout
@@ -35,3 +34,4 @@ This project demonstrates basic frontend development skills including layout des
 ## Author
 
 Atharv Gupta
+
