@@ -1,0 +1,271 @@
+
+/* BASE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: Arial,helvetica sans-serif;
+    line-height: 1.6;
+    padding: 40px;
+    color:#222;
+    background-color:#f4f6fb;
+
+}
+
+ 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap:30px
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color:#333;
+    font-weight: 500;
+}
+
+.hero h1{
+    font-size: 59p;
+}
+.hero-text span{
+    color:#4c6ef5;
+
+
+}
+.hero-text{
+    margin-top: 30px;
+}
+.hero-text h2{
+margin-top: 10px;
+font-size: 35px;
+}
+
+.hero{
+    width:200vh;
+    
+    height: 80vh;
+    box-shadow: 1px 1px 4px rgba(146,161,176,0.15);
+    margin-top: 20px;
+    padding: 60px;
+    border-radius: 7%;
+    justify-content: space-between;
+    background: white;
+    display: flex;
+    position: relative;
+}
+.hero-text button{
+    font-size: 20px;
+      padding: 10px 20px; /* Top/Bottom, Left/Right */
+
+    background-color: #4c6ef5;
+    color: white;
+    border-radius: 10%;
+}
+
+
+.hero-img{
+    position: relative;
+}
+
+.blob{
+    width:320px;
+    height: 320px;
+    background:#4c6ef5;
+    border-radius: 60% 40% 50%  50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.blob img{
+    width: 260px;
+    border-radius: 50%;
+    margin-top: 87px;
+    margin-left: 1px;
+}
+.social-profile{
+    position: absolute;
+    bottom:40px;
+    left:50px;
+    display: flex;
+    gap:10px;
+    
+    
+}
+.social-profile img{
+    height: 25px;
+    width: 25px;
+}
+    /* Footer */
+    
+    footer{
+        padding: 30px 20px;
+ margin-top: 60px;
+}
+
+.footer-content{
+    margin: auto;  
+ text-align: center;
+ max-width: 1100px;
+   }
+
+
+
+.footer-logo{
+    margin-bottom: 10px;
+}
+.footer-links{
+    margin:15px 0px;
+}
+.footer-links a{
+    margin: 0  10px;
+     font-size:14px;
+
+}
+
+.footer-copyright{
+    font-size: 13px;
+    color:#bbb;
+}
+
+
+/* About section */
+
+.bio{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px 10px 10px;
+
+
+}
+.bio p{
+    font-size: 17px;
+    align-self: flex-start;
+
+     
+
+}
+.aboutBanner{
+    /* height:30vh; */
+    width: 180px;
+
+    position: absolute;
+    right:100px;
+    top:100px;
+
+
+    
+}
+.bioborder2 p{
+    padding-top: 40px;
+    line-height: 1.6;
+    max-width: 550px;
+}
+.bioborder1{
+    border: 1px solid #dedede;
+    padding: 20px;
+    
+   
+}
+
+ 
+.social-accounts{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+
+
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+
+
+    
+
+}
+.profile img{
+    width: 28px;
+    margin-right: 6px;
+    height: 28px;}
+ 
+ 
+.bioborder2{
+    border: 1px solid #dedede;
+    padding: 20px;
+    flex-direction: column;
+    /* gap: 10px; */
+    position: relative;
+     display: flex;
+    height:50vh;
+    
+    
+
+}
+.bioTitle{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px 10px 10px;
+ }
+.bioPic{
+
+    position: absolute;
+    /* bottom:300px; */
+    right: 120px;
+    
+     border-radius: 5%;
+    border: 1px solid #dedede;
+    align-self: center;
+    /* right: 150px; */
+    height: 30vh;
+
+}
+
+.skills{
+    margin-top: 20px;
+
+}
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding:30px;
+    border-radius: 10px;
+    background:white;
+}
+.skills-left{
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+}
+.skills h4{
+    margin-bottom: 3px;
+}
+.skills-right img{
+    width:120px;
+    opacity: 0.8;
+}
+.skill p{
+    color:#555;
+    font-size: 14px;
+}
+
+ 
